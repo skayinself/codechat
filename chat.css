@@ -1,0 +1,111 @@
+body {
+  background-color: rgba(0, 255, 255, 0.226);
+  background-image: url("bgwh.jfif");
+  background-size: cover;
+  margin: 0;
+  padding: 0%;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+nav{
+    margin-top: 0px;
+    background-color:#075E54;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+}
+h1{
+    padding: 15px;
+    margin-top: 2px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.container-top{
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+}
+
+.container {
+    width: 80vw;
+   padding: 33px;
+  overflow-y: auto;
+  margin-bottom: 23px;
+  margin: auto;
+  height: 60vh;
+   position: relative;
+
+}
+.message {
+  /* background-color: grey;
+  width: 24%;
+  padding: 10px;
+  margin: 17px 12px;
+  border: 2px solid black;
+  border-radius: 10px; */
+
+
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f2f5f7;
+    width: 200px;
+    height: auto;
+    text-align: left;
+    font: 400 .9em 'Open Sans', sans-serif;
+    border: 1px solid #97C6E3;
+    border-radius: 10px;
+
+    word-wrap: break-word;
+
+}
+
+.left {
+  float: left;
+  clear: both;
+}
+.right {
+  float: right;
+  clear: both;
+}
+.send{
+ margin-top: 1rem;
+
+}
+#send-container {
+  display: block;
+  margin: auto;
+  text-align: center;
+  max-width: 985px;
+  width: 100%;
+  padding-left: 28px;
+}
+#send-container input{
+  background-color: rgb(249, 250, 249);
+  border-radius: 15px;
+}
+#messageinp{
+  width: 80%;
+  border: 2px solid rgba(0, 0, 0, 0.952);
+  border-radius: 6px;
+  height: 34px;
+}
+.btn {
+  cursor: pointer;
+  background-image: url("sendbg.png");
+   background-size: cover;
+    background-repeat: no-repeat;
+   color:transparent;
+  /* background-color: #25D366; */
+  border: 2px solid rgba(17, 43, 2, 0.815);
+  border-radius: 15px;
+  height: 35px;
+}
